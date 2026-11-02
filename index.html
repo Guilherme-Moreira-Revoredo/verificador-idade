@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Verificador de idade</h1></header>
+    <section>
+      <div>
+        <p>
+          Ano de nascimento:
+          <input type="number" name="nascimento" id="inascimento" />
+        </p>
+        <p>
+          Sexo:
+          <input type="radio" name="radsex" id="imasculino" checked />
+          <label for="imasculino">Masculino</label>
+          <input type="radio" name="radsex" id="ifeminino" />
+          <label for="ifeminino">Feminino</label>
+        </p>
+        <p><input onclick="checar()" type="button" value="Checar" /></p>
+      </div>
+      <div id="resultado">Preencha os dados acima para ver o resultado</div>
+      <img src="imagens/homem-bb.png" alt="Imagem padrão" />
+    </section>
+    <footer><p>Produzido por Guilherme</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

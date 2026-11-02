@@ -1,0 +1,32 @@
+@charset "UTF=8";
+body {
+  background-color: rgba(1, 83, 165, 0.849);
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 5px 5px;
+  width: 450px;
+  margin: auto;
+}
+
+section img {
+  display: block;
+  margin: auto;
+}
+
+footer > p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
