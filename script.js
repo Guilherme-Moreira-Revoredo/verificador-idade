@@ -13,7 +13,7 @@ function checar() {
 
     if (fsex[0].checked) {
       genero = `Homem`
-      if (idade >= 0 && idade < 10) {
+      if (idade >= 0 && idade < 15) {
         img.src = `imagens/homem-crianca.png`
         resultado.innerHTML = `Detectamos criança/${genero} com ${idade} anos`
       } else if (idade < 21) {
@@ -28,7 +28,7 @@ function checar() {
       }
     } else if (fsex[1].checked) {
       genero = `Mulher`
-      if (idade >= 0 && idade < 10) {
+      if (idade >= 0 && idade < 15) {
         img.src = `imagens/mulher-crianca.png`
         resultado.innerHTML = `Detectamos criança/${genero}  com ${idade} anos`
       } else if (idade < 21) {
